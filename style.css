@@ -8,7 +8,7 @@
     /* color: var(--main-color); */
     padding: 0;
     margin: 0;
-    font-weight: bold;
+    /* font-weight: bold; */
   }
 
   /* p{
@@ -32,5 +32,14 @@
   }
 
   .logo{
-      margin: 80px 0 0 40%;
+      margin: 100px 0 0 40%;
   }
+
+  .hero-content p{
+      text-align: center;
+      font-size: 40px;
+      font-weight: 100;
+      color: #fff;
+  }
+
+  /* Top food section */
