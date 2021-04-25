@@ -406,6 +406,11 @@ footer p{
     font-family: 'Courier New', Courier, monospace;
 }
 
+.footer-logo h1{
+    color: #fff;
+    height: 40px;
+}
+
 .footer-logo img{
     height: 50px;
     margin: 15px 20px 0 0;
@@ -421,5 +426,7 @@ footer p{
 }
 
 .last{
-    
+    font-size: 15px;
+    padding-bottom: 30px;
+    font-weight: normal;
 }
