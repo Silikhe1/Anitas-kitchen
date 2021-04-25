@@ -120,3 +120,32 @@
  #dinner:hover { 
     opacity: .5;
 }
+
+/* Fast food section */
+
+.fast-food{
+    padding: 100px;
+}
+
+.container{
+    display: flex;
+    /* box-shadow: 0px 5px 10px 0px #c4c4c4; */
+}
+
+#fastFood1 {
+    background-image: url("./images/assets/fastFood1.jpg");
+    background-size: cover;
+    align-items: center;
+}
+
+#fastFood2 {
+    background-image: url("./images/assets/fastFood2.jpg");
+    background-size: cover;
+    align-items: center;
+}
+
+
+.img-sec{
+    padding: 20px;
+        box-shadow: 0px 5px 10px 0px #c4c4c4;
+}
