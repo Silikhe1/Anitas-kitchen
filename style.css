@@ -310,3 +310,47 @@ float: right;
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
   }
+
+
+  /* Top foods arrows */
+  /* .arrows {
+    margin: 0 15px 20px 15px;
+    border: solid #F15A29;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  } */
+
+
+  .cust-reviews h3{
+      font-size: 20px;
+      color: #F15A29;
+  }
+
+  .cust-reviews strong{
+      color: #505050;
+  }
+
+  .cust-reviews p{
+      color: #505050;
+      line-height: 28px;
+  }
+
+  .newsletter{
+    background-image: url("./images/assets/backgrounds/foodsBg.jpg");
+    background-size: cover;
+    align-items: center;
+    padding: 100px 120px;
+    opacity: .9;
+    text-align: center;
+  }
