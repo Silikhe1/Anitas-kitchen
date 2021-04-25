@@ -347,10 +347,79 @@ float: right;
   }
 
   .newsletter{
-    background-image: url("./images/assets/backgrounds/foodsBg.jpg");
+    background-image: url("./images/assets/backgrounds/subscribe.jpg");
     background-size: cover;
     align-items: center;
     padding: 100px 120px;
     opacity: .9;
     text-align: center;
   }
+
+  .newsletter p{
+      color: #fff;
+      font-size: 30px;
+      font-weight: bold;
+  }
+
+  .inputs{
+      display: flex;
+      width: 100%;
+      padding: 0 23%;
+      /* align-items: center; */
+  }
+
+  input{
+      font-size: 18px;
+      padding: 13px 100px 13px 13px;
+      width: 100%;
+      opacity: .2;
+      color: #fff;
+      border-radius: 3px;
+      border: none;
+  }
+
+  button{
+    font-size: 18px;
+    border: none;
+    padding: 13px 50px;
+    margin-left: 20px;
+    font-weight: bold;
+    background: #F15A29;
+    border-radius: 3px;
+    width: 100%;
+    color: #fff;
+}
+
+::placeholder {
+    color: rgb(54, 47, 47);
+}
+
+footer{
+    background: #F15A29;
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer-logo img{
+    height: 50px;
+    margin: 15px 20px 0 0;
+}
+
+.footer-logo, .social{
+    display: flex;
+    padding: 20px 43%;
+}
+
+.icons{
+    margin-left: 20px;
+}
+
+.last{
+    
+}
