@@ -15,11 +15,6 @@
     /* font-weight: bold; */
   }
 
-  /* p{
-      font-weight: bold;
-      font-size: 15px;
-      color: #505050;
-  } */
 
   .hero{
       background: url(./images/assets/backgrounds/landing.jpg);
@@ -76,7 +71,7 @@
     padding-top: 3px;
     padding-bottom: 3px;
     background-color: white;
-    color: #000000af;
+    color: #505050;
     text-align: center;
 }
 
@@ -95,7 +90,7 @@
     align-items: center;
 }
 
-#breakfast p{
+#breakfast p, #lunch p, #dinner p{
     margin: 25% 0;
 }
 
@@ -103,10 +98,6 @@
     background-image: url("./images/assets/foodtop/lunch.jpg");
     background-size: cover;
     align-items: center;
-}
-
-#lunch p, #dinner p{
-    margin: 6% 8%;
 }
 
 #dinner {
@@ -125,27 +116,43 @@
 
 .fast-food{
     padding: 100px;
+    /* flex-wrap: wrap; */
+
 }
 
 .container{
+    /* flex-wrap: wrap; */
     display: flex;
+    max-width: 100%;  
+    /* flex-basis: 150px; */
+    flex-grow: 1;
+
     /* box-shadow: 0px 5px 10px 0px #c4c4c4; */
 }
 
-#fastFood1 {
+/* #fastFood1{
     background-image: url("./images/assets/fastFood1.jpg");
     background-size: cover;
     align-items: center;
 }
 
-#fastFood2 {
+#fastFood2{
     background-image: url("./images/assets/fastFood2.jpg");
     background-size: cover;
     align-items: center;
-}
+} */
 
 
 .img-sec{
     padding: 20px;
-        box-shadow: 0px 5px 10px 0px #c4c4c4;
+    box-shadow: 0px 5px 10px 0px #c4c4c4;
+}
+
+.content-sec{
+    padding: 0 100px;
+    color: #505050;
+}
+
+.content-sec h1{
+    font-size: 38px;
 }
