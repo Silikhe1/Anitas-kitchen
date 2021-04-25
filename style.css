@@ -54,6 +54,7 @@
     flex-grow: 1;
     font-style: italic;
     font-size: 30px;
+    height: 100%;
     font-weight: 500;
     color: #fff;
   }
@@ -66,19 +67,21 @@
 
 
 .happy-hour {
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     background-color: white;
     color: #505050;
     text-align: center;
+    height: 100%;
 }
 
 
 .party-time {
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     background-color: #F15A29;
     text-align: center;
+    height: 100%;
 }
 
 
@@ -196,7 +199,7 @@ float: right;
     background-image: url("./images/assets/backgrounds/foodsBg.jpg");
     background-size: cover;
     align-items: center;
-    padding: 80px;
+    padding: 100px 150px;
     opacity: .9;
 }
 
@@ -216,12 +219,23 @@ float: right;
     text-align: center;
     border: .5px solid #c4c4c4;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
+    padding: 10px;
     background: #E3E3E3;
     color: #505050;
 }
 
+.but:hover{
+    border: none;
+    color: #F15A29;
+    background: #fff;
+}
+
 .bunner-imgs{
+    display: flex;
+}
+
+.bunner-img{
     display: flex;
 }
 
@@ -230,6 +244,23 @@ float: right;
     flex-shrink: 1;
     flex-basis: 0;
     text-align: center;
-    margin: 40px 20px;
-    /* border: .5px solid #c4c4c4; */
+    margin: 50px 30px;
+}
+
+
+.arrows{
+    width: 30%;
+    text-align: center;
+    margin: 10% 0;
+}
+.arrows img{
+    width: 30px;
+    height: 40px;
+}
+
+.food-img p{
+    /* padding-top: 10px; */
+    font-size: 18px;
+    color: #F15A29;
+    font-weight: bold;
 }
